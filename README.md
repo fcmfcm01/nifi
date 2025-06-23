@@ -17,6 +17,16 @@
 
 <img src="https://nifi.apache.org/images/apache-nifi-logo.svg" width="300" alt="Apache NiFi"/>
 
+Apache NiFi is an easy to use, powerful, and reliable system to process and distribute data. It supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.
+
+### Docker Images
+
+Apache NiFi provides Docker images for both JVM-based and GraalVM native deployments:
+- Standard JVM-based Docker images
+- GraalVM native Docker images for improved startup time and reduced memory footprint
+
+For more information about the GraalVM native Docker images, see [NATIVE_DOCKER_IMAGES.md](NATIVE_DOCKER_IMAGES.md).
+
 ### Status
 
 [![ci-workflow](https://github.com/apache/nifi/workflows/ci-workflow/badge.svg)](https://github.com/apache/nifi/actions/workflows/ci-workflow.yml)

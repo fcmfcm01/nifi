@@ -33,6 +33,7 @@
         <module>nifi-registry-assembly</module>
         <module>nifi-registry-toolkit</module>
         <module>nifi-registry-docker-maven</module>
+        <module>nifi-registry-docker-maven-native</module>
     </modules>
     <properties>
         <spring.boot.version>3.5.3</spring.boot.version>
